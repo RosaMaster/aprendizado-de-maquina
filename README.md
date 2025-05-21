@@ -86,62 +86,53 @@ O aprendizado de máquina (em inglês, ML - Machine Learning) é um método de a
 >
 >> Aula 08 - [Aplicações do algoritmo Naive-Bayes](https://www.youtube.com/watch?v=GayrEYpxJQo)<br>
 >
+>> Material de Apoio<br>
+>>> [__BAIXAR Iris.csv__](https://ava.univesp.br/bbcswebdav/pid-965711-dt-content-rid-11902720_1/xid-11902720_1)<br>
+>>> [__BAIXAR Naive-Bayes-Aula.ipynb__](https://ava.univesp.br/bbcswebdav/pid-965711-dt-content-rid-11902718_1/xid-11902718_1)<br>
+>>> [__BAIXAR image.png__](https://ava.univesp.br/bbcswebdav/pid-965711-dt-content-rid-11902719_1/xid-11902719_1)<br>
+>
 >> Aprofundando o tema - [IA - Programando Redes Bayesianas com Python](https://www.youtube.com/watch?v=i2XRQhede9U)<br>
 
 <!-- SEMANA 04 -->
->&#128310; **Semana 04**: Virtualização
->> Aula 12 - [Virtualização – Contexto e Conceitos](https://www.youtube.com/watch?v=1yPE2vT6ifs)<br>
+>&#128310; **Semana 04**: Aprendizado baseado em maximização de margens
+>> Aula 09 - [Máquinas de Vetores de Suporte (SVMs)](https://www.youtube.com/watch?v=54wtapH5t3E)<br>
 >
->> Aula 13 - [Tipos de Virtualização](https://www.youtube.com/watch?v=MVmPpNDKYXw)<br>
+>> Aula 10 - [Aplicação do algoritmo SVM](https://www.youtube.com/watch?v=FXBVbRhlEh4)<br>
 >
->> Aula 14 - [Exemplos de Virtualizadores e Ferramentas de Gerenciamento](https://www.youtube.com/watch?v=n1UpSddJTgg)<br>
+>> Material de apoio - [Geometria analítica e álgebra linear - Vetores no Plano e no Espaço](https://www.youtube.com/watch?v=IQW5bj4Yxlc)<br>
+>> Material de apoio - [Geometria analítica e álgebra linear - Operações com vetores](https://www.youtube.com/watch?v=PjTU-YInXQA)<br>
 >
->> Material de apoio - [Vídeo de apoio - Customização Virtualbox](https://www.youtube.com/watch?v=LAPSITwFSnA)<br>
->> Material de apoio - [O que é Virtualização - Introdução e conceitos básicos](https://www.youtube.com/watch?v=XD1zl2m9wSU)<br>
->> Material de apoio - [VirtualBOX - Conceitos de Virtualização Básico e Instalação](https://www.youtube.com/watch?v=_7vCg7gKTTU)<br>
->> Material de apoio - [Afinal como funciona a virtualização?](https://www.youtube.com/watch?v=FLhv_JcnYlU)<br>
->> Material de apoio - [Fundamentos da virtualização - VMware](https://www.youtube.com/watch?v=-9fcJ8KVeuw)<br>
+>> Aprofundando o tema - [SVM - Máquina de Vetores de Suporte](https://www.youtube.com/watch?v=7y4uceXgYeo)<br>
+>
+>> Aprofundando o tema - [Kernel do SVM - Machine Learning 15](https://www.youtube.com/watch?v=ydiqpR5gw0E)<br>
 
 <!-- SEMANA 05 -->
->&#128311; **Semana 05**: Arquiteturas SOA e Web Services
->> Revisitando Conhecimentos - [Arquitetura Orientada a Serviços - Aula 04 / parte 2 - Componentes de Software e Reúso 2020](https://www.youtube.com/watch?v=Ha4FbQZB1TU)<br>
+>&#128311; **Semana 05**: Agrupamento de Dados / Aprendizado baseado em distâncias
+>> Aula 11 - [Aprendizado para agrupamento](https://www.youtube.com/watch?v=GIw5ku9wFFk)<br>
 >
->> Aula 15 - [SOA e Web Services](https://www.youtube.com/watch?v=eJ7giVunBkg)<br>
+>> Aula 12 - [Algoritmos de Agrupamento](https://www.youtube.com/watch?v=QZOvIhDyizQ)<br>
 >
->> Aula 16 - [RESTFul Services](https://www.youtube.com/watch?v=Obxrck08Tlc)<br>
+>> Aula 13 - [Aplicação do Algoritmo Fuzzy C-Means](https://www.youtube.com/watch?v=xVeCUPDFuaE)<br>
 >
->> Material de apoio - [Vídeo de apoio - Aplicação PHP REST API](https://www.youtube.com/watch?v=wSbMjE-0aO4)<br>
->> Material de apoio - [REST x SOAP: entenda a diferença de uma vez por todas!](https://www.youtube.com/watch?v=YWPT2UOxbUg)<br>
->> Material de apoio - [Web Services - Definição, Protocolos e Exemplo com SOAP](https://www.youtube.com/watch?v=uUCqp4br3BE)<br>
->> Material de apoio - [Processamento Distribuído e Componentes - Aula 04 / parte 1 - Componentes de Software e Reúso 2020](https://www.youtube.com/watch?v=_hv-bfSOaU4)<br>
+>> Aprofundando o tema - [DBSCAN Clustering | Python | Clustering](https://www.youtube.com/watch?v=2eDFjw456AM)<br>
 
 <!-- SEMANA 06 -->
->&#128310; **Semana 06**: Fundamentos de Arquiteturas de Microsserviços
->> Aula 17 - [Arquitetura de Microsserviços para o Desenvolvimento de Aplicações](https://www.youtube.com/watch?v=r6NKgvhQnqc)<br>
+>&#128310; **Semana 06**: Algoritmos Genéticos
+>> Aula 14 - [Algoritmos genéticos](https://www.youtube.com/watch?v=tfPYwaNkI7o)<br>
 >
->> Aula 18 - [Plataforma e Operação](https://www.youtube.com/watch?v=dkTBKVOhRRs)<br>
+>> Aula 15 - [Algoritmos Genéricos - Implementação do problema do caixeiro viajante](https://www.youtube.com/watch?v=ud5EsxUnY88)<br>
 >
->> Material de apoio - [Vídeo de apoio - Instalação Configuração Docker e Tools](https://www.youtube.com/watch?v=3H5BuMDKW7U)<br>
->> Material de apoio - [Arquitetura Monolítica e Arquitetura de Microserviços (Microservices)](https://www.youtube.com/watch?v=KBmWI1e_voc)<br>
+>> Aprofundando o tema - [Introdução ao Algoritmo Genético - Parte 1](https://www.youtube.com/watch?v=xtHMSJLnKsE)<br>
 
 <!-- SEMANA 07 -->
->&#128311; **Semana 07**: Estudos de caso de Infraestrutura para Sistemas de Software
->> Aula 19 - [Introdução – Google Cloud, Azure e AWS](https://www.youtube.com/watch?v=uD77HsIo0lo)<br>
+>&#128311; **Semana 07**: Estimação de Acurácia e Comparação de Modelos
+>> Aula 16 - [Avaliação de Modelos Preditivos](https://www.youtube.com/watch?v=vvfPshWr0a4)<br>
 >
->> Aula 20 - [Criação de Contas - Google Cloud e Microsoft Azure](https://www.youtube.com/watch?v=opsD3NqMk9U)<br>
+>> Aula 17 - [Avaliação de Modelos Descritivos](https://www.youtube.com/watch?v=l2YK5naBI_g)<br>
 >
->> Aula 21 - [Criação de Contas - AWS](https://www.youtube.com/watch?v=hchfswLlvZ0)<br>
+>> Aula 18 - [Comparação de Modelos Preditivos](https://www.youtube.com/watch?v=4TLt8tCGHGA)<br>
 >
->> Material de apoio - [Vídeo de apoio - Docker GCP](https://www.youtube.com/watch?v=SPCel6wEqGc)<br>
->> Material de apoio - [Vídeo de apoio - Docker Azure](https://www.youtube.com/watch?v=g9lEMO0PwR0)<br>
->> Material de apoio - [Microsoft Azure Introdução a Computação em Nuvem Gratis](https://www.youtube.com/watch?v=C-E9The0dTo)<br>
->> Material de apoio - [Introdução ao Azure - Principais recursos](https://www.youtube.com/watch?v=P4VL36eGYtE)<br>
->> Material de apoio - [Microsoft Azure - Criando Máquinas Virtuais](https://www.youtube.com/watch?v=bdPUWbN7j1w)<br>
->> Material de apoio - [O que é a AWS?](https://www.youtube.com/watch?v=8JI9wQ8sUdQ)<br>
->> Material de apoio - [Introdução a Amazon Web Services](https://www.youtube.com/watch?v=XYPloStZH4U)<br>
->> Material de apoio - [Conheça os Serviços da Google Cloud Platform GCP](https://www.youtube.com/watch?v=Z0Q-E4kSWaY)<br>
->> Material de apoio - [Introduction to Google Cloud Platform ( GCP ) | Google Cloud Tutorial for Beginners | Edureka](https://www.youtube.com/watch?v=EcClQjM4AgM)<br>
->> Material de apoio - [Google Cloud Platform Tutorial | GCP Tutorial | Google Cloud Platform For Beginners | Simplilearn](https://www.youtube.com/watch?v=vACTtmLWiQY)<br>
+>> Aprofundando o tema - [Comparação Automatizada de Modelos de Machine Learning](https://www.youtube.com/watch?v=UgCfV9-AdSU)<br>
 
 ---
 

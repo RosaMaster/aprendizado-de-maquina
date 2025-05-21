@@ -29,31 +29,75 @@ amostra ='''
 entropia = -((9/14) * log2(9/14) + (5/14) * log2(5/14))
 
 print(f"ENTROPIA: {entropia:.3f}")
+print('##############################################')
 
+# Calculo de Ganho de Informação
 ### Ganho de Informação: redução esperada no valor da Entropia, devido à ordenação no conjunto de treino segundo os valores do atributo A. Exemplo: Para responder a pergunta: Qual o melhor atributo para iniciar a árvore ? Resposta: utiliza-se o ganho. No exemplo dado: 
-# Ganho(S, Aspecto) = 0,246 
-# Ganho(S, Umidade) = 0,151 
-# Ganho(S, Vento) = 0,048 
-# Ganho(S, Temperatura) = 0,029
 
-# FORMULA: G(S, A) = E(S) - Σ(|S_v|/|S| * E(S_v))
-# Onde:
-# - G(S, A) é o ganho de informação do atributo A em relação ao conjunto S
-# - E(S) é a entropia do conjunto S
-# - |S_v| é o número de instâncias do conjunto S que possuem o valor v do atributo A
-# - |S| é o número total de instâncias do conjunto S
-# - E(S_v) é a entropia do subconjunto S_v, que contém as instâncias do conjunto S que possuem o valor v do atributo A
+# Caculo ASPECTO
+# Atributo ASPECTO - SOL [5 instâncias: 2 "sim", 3 "nao"]
+entropia_aspecto_sol = -((2/5) * log2(2/5) + (3/5) * log2(3/5))
+print(f"ENTROPIA ASPECTO SOL: {entropia_aspecto_sol:.3f}")
 
-# Exemplo:
-# - S = {D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14}
-# - A = {Perspectiva, Umidade, Vento, Temperatura}
-# - S_v = {D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14}
-# - |S| = 14
-# - |S_v| = 14
-# - E(S) = 0,940
-# - E(S_v) = 0,940
-# - G(S, A) = E(S) - Σ(|S_v|/|S| * E(S_v))
-# - G(S, A) = 0,940 - Σ(14/14 * 0,940)
+# Atributo ASPECTO - NUVENS [4 instâncias: 3 "sim", 1 "nao"]
+entropia_aspecto_nuvens = -((3/4) * log2(3/4) + (1/4) * log2(1/4))
+print(f"ENTROPIA ASPECTO NUVENS: {entropia_aspecto_nuvens:.3f}")
 
+# Atributo ASPECTO - CHUVA [5 instâncias: 4 "sim", 1 "nao"]
+entropia_aspecto_chuva = -((4/5) * log2(4/5) + (1/5) * log2(1/5))
+print(f"ENTROPIA ASPECTO CHUVA: {entropia_aspecto_chuva:.3f}")
 
-# REGRAS DE DIVISÃO POR REGRESSÃO
+# Cálculo do ganho de informação para o atributo ASPECTO
+ig_aspecto = entropia - ((5/14) * entropia_aspecto_sol + (4/14) * entropia_aspecto_nuvens + (5/14) * entropia_aspecto_chuva)
+print(f"GANHO DE INFORMAÇÃO ASPECTO: {ig_aspecto:.3f}")
+
+print('##############################################')
+
+# Caculo TEMPERATURA
+# Atributo TEMPERATURA - QUENTE [4 instâncias: 2 "sim", 2 "nao"]
+entropia_temperatura_quente = -((2/4) * log2(2/4) + (2/4) * log2(2/4))
+print(f"ENTROPIA TEMPERATURA QUENTE: {entropia_temperatura_quente:.3f}")
+
+# Atributo TEMPERATURA - AMENO [6 instâncias: 4 "sim", 2 "nao"]
+entropia_temperatura_ameno = -((4/6) * log2(4/6) + (2/6) * log2(2/6))
+print(f"ENTROPIA TEMPERATURA AMENO: {entropia_temperatura_ameno:.3f}")
+
+# Atributo TEMPERATURA - FRESCO [4 instâncias: 3 "sim", 1 "nao"]
+entropia_temperatura_fresco = -((3/4) * log2(3/4) + (1/4) * log2(1/4))
+print(f"ENTROPIA TEMPERATURA FRESCO: {entropia_temperatura_fresco:.3f}")
+
+# Cálculo do ganho de informação para o atributo TEMPERATURA
+ig_temperatura = entropia - ((4/14) * entropia_temperatura_quente + (6/14) * entropia_temperatura_ameno + (4/14) * entropia_temperatura_fresco)
+print(f"GANHO DE INFORMAÇÃO TEMPERATURA: {ig_temperatura:.3f}")
+
+print('##############################################')
+
+# Caculo UMIDADE
+# Atributo UMIDADE - ELEVADA [7 instâncias: 3 "sim", 4 "nao"]
+entropia_umidade_elevada = -((3/7) * log2(3/7) + (4/7) * log2(4/7))
+print(f"ENTROPIA UMIDADE ELEVADA: {entropia_umidade_elevada:.3f}")
+
+# Atributo UMIDADE - NORMAL [7 instâncias: 4 "sim", 3 "nao"]
+entropia_umidade_normal = -((4/7) * log2(4/7) + (3/7) * log2(3/7))
+print(f"ENTROPIA UMIDADE NORMAL: {entropia_umidade_normal:.3f}")
+
+# Cálculo do ganho de informação para o atributo UMIDADE
+ig_umidade = entropia - ((7/14) * entropia_umidade_elevada + (7/14) * entropia_umidade_normal)
+print(f"GANHO DE INFORMAÇÃO UMIDADE: {ig_umidade:.3f}")
+
+print('##############################################')
+
+# Caculo VENTO
+# Atributo VENTO - FRACO [8 instâncias: 5 "sim", 3 "nao"]
+entropia_vento_fraco = -((5/8) * log2(5/8) + (3/8) * log2(3/8))
+print(f"ENTROPIA VENTO FRACO: {entropia_vento_fraco:.3f}")
+
+# Atributo VENTO - FORTE [6 instâncias: 4 "sim", 2 "nao"]
+entropia_vento_forte = -((4/6) * log2(4/6) + (2/6) * log2(2/6))
+print(f"ENTROPIA VENTO FORTE: {entropia_vento_forte:.3f}")
+
+# Cálculo do ganho de informação para o atributo VENTO
+ig_vento = entropia - ((8/14) * entropia_vento_fraco + (6/14) * entropia_vento_forte)
+print(f"GANHO DE INFORMAÇÃO VENTO: {ig_vento:.3f}")
+
+print('##############################################')

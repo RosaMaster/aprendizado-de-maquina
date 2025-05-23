@@ -134,6 +134,12 @@ O aprendizado de máquina (em inglês, ML - Machine Learning) é um método de a
 >
 >> Aprofundando o tema - [Comparação Automatizada de Modelos de Machine Learning](https://www.youtube.com/watch?v=UgCfV9-AdSU)<br>
 
+<br>
+
+:arrow_double_up: [__HOME__](#a-p-r-e-n-d-i-z-a-d-o---d-e---m-a-q-u-i-n-a)
+
+<br>
+
 ---
 
 ### **RosaMaster**
@@ -156,5 +162,3 @@ O aprendizado de máquina (em inglês, ML - Machine Learning) é um método de a
     </tr>
   </table>
 </div>
-
-[__HOME__](#a-p-r-e-n-d-i-z-a-d-o---d-e---m-a-q-u-i-n-a)
